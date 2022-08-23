@@ -11,7 +11,9 @@ export function Main() {
 			<Link to="/login">
 				<button type="button">Fazer login</button>
 			</Link>
-			<button type="button">Criar conta</button>
+			<Link to="/register">
+				<button type="button">Criar conta</button>
+			</Link>
 		</>
 	);
 }
